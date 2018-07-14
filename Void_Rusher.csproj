@@ -16,6 +16,7 @@
     </TargetFrameworkProfile>
     <CompilerResponseFile>
     </CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.1.1f1</UnityVersion>
@@ -247,6 +248,15 @@
     <Reference Include="DOTween">
       <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/gonbe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/gonbe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/gonbe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween43">
       <HintPath>Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
     </Reference>
@@ -258,15 +268,6 @@
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
       <HintPath>Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/GONBEEE_project/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/GONBEEE_project/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/GONBEEE_project/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\UnityEngine\Unity2018.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll</HintPath>
@@ -297,13 +298,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.StandardEvents.csproj">
-      <Project>{6800202F-4402-D405-F8CB-03DC7BD78B92}</Project>
-      <Name>UnityEditor.StandardEvents</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
       <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
       <Name>Unity.PackageManagerUI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.StandardEvents.csproj">
+      <Project>{6800202F-4402-D405-F8CB-03DC7BD78B92}</Project>
+      <Name>UnityEditor.StandardEvents</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -473,6 +474,21 @@
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+    <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
     <None Include="Assets\Normal-Diffuse.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
@@ -515,15 +531,15 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Light.uss" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\Alert.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageDetails.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageGroup.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageItem.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageList.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageManagerWindow.uxml" />
-    <None Include="C:\Users\GONBEEE_project\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="C:\Users\gonbe\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
